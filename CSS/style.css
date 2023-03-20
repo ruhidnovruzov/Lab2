@@ -1,0 +1,124 @@
+body{
+  background-attachment: fixed;
+  background-image: linear-gradient(rgb(189, 42, 189),rgb(18, 18, 170));
+}
+.main{
+  height: 420px;
+  width: 310px;
+  border: 1px solid black;
+  margin: auto;
+  margin-top:160px;
+  background-color: whitesmoke;
+  border-radius:8px;
+  font-size: 18px;
+  padding: 30px;
+  padding-top: 10px;
+  box-shadow: 5px 5px 10px rgb(40, 39, 39);
+}
+.main .tittle{
+  text-align: center;
+  font-size: 15px;
+  font-weight: 600;
+}
+form{
+  margin-top:35px;
+}
+form .inputt{
+  height: 50px;
+  width: 100px;
+  position: relative;
+  margin-top: 15px;
+  margin-left: 40px;
+}
+.inputt input{
+  background-color: rgb(214, 205, 205);
+  height: 70%;
+  width: 200%;
+  outline: none;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  padding-left: 40px;
+  font-size: 17px;
+  transition: all 0.3s ease;
+  border: 1px solid lightgray;
+}
+.inputt input:focus{
+  border-color: grey;
+}
+.inputt .icon{
+  position: absolute;
+  top: 10px;
+  left: 8px;
+  color: grey;
+}
+.check{
+  margin-left:35px;
+}
+
+.check span{
+  font-size: 15px;
+  color: grey;
+}
+
+.button input{
+  color: white;
+  padding-left: 0;
+  background: #C54C89;
+  font-weight: 500px;
+  cursor: pointer;
+  transition: all 0.3s linear
+}
+.button input:hover{
+  background-color: #a00050;
+}
+p{
+  font-size: 15px;
+  color: grey;
+  text-align: center
+}
+.main .social{
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+.social a{
+  display: block;
+  height: 37px;
+  width: 125px;
+  line-height: 45px;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 15px;
+  text-decoration: none;
+  transition: all 0.3s linear;
+}
+.social a span{
+  padding-top: 5px;
+  margin-left: 5px;
+  font-size: 18px;
+}
+.social a:first-child{
+  padding-bottom: 3px;
+  margin-right: 5px;
+  border:1px solid grey;
+}
+.social a:first-child:hover{
+  background-color: rgb(109, 122, 236);
+}
+.social a:last-child{
+  padding-bottom: 3px;
+  margin-left: 5px;
+  border:1px solid grey;
+}
+.social a:last-child:hover{
+  background-color:violet;
+}
+form .sign{
+  text-align: center;
+  margin-top: 30px;
+  color: grey;
+  font-size: 15px;
+}
+.sign a{
+  color: grey;
+}
